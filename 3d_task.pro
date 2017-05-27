@@ -12,9 +12,7 @@ TEMPLATE = app
 LIBS += -lGLU
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    matrix.cpp \
-    solver.cpp
+        mainwindow.cpp
 
 HEADERS  += mainwindow.h
 CONFIG += "debug"

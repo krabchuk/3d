@@ -45,10 +45,8 @@ public:
 private:
   int n, N, h, w;
   double x[4], y[4];
-  struct args *ar;
   double hx, hy, zmax;
   int total_threads;
-  double *coefs;
   int draw_type;
 
   QPoint mouse_position;
